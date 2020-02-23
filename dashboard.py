@@ -9,7 +9,6 @@ import collections
 import sys
 
 
-
 def draw_nubers_n_hexes(down_speed, up_speed, ping, canvas, font):
     start_base = [92.0, 8.0]
     center = [start_base[0], start_base[1]]
@@ -108,9 +107,10 @@ def draw_network_graph(xy, hw, canvas, measurement_queue):
 
         queue_draw_loc_x -= 1
 
-EXECUTION_PERIOD_S = 60.0 * 10.0
+
 # Entry point of the program
 if __name__ == '__main__':
+    EXECUTION_PERIOD_S = 60.0 * 10.0
     # Create the I2C interface.
     i2c = busio.I2C(board.SCL, board.SDA)
     # Create the SSD1306 OLED class.
@@ -134,7 +134,6 @@ if __name__ == '__main__':
 
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image)
-
 
     starttime = time.time() - EXECUTION_PERIOD_S
     print(starttime)
