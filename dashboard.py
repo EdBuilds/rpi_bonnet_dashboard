@@ -1,7 +1,7 @@
 import board
-import busiPILo
+import busio
 
-from pillow import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
 import time
 import speedtest
