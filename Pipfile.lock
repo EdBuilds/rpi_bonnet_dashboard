@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0cef424a7eb3f015dc35a3c05c1941b6511953ef6eaab715c0ec0809e339020d"
+            "sha256": "67614163e98bf1b725581dece0c1f02d359873a8e4ac994a42cc779021d17305"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "python_version": "3"
         },
         "sources": [
             {
@@ -142,12 +142,20 @@
             "index": "pypi",
             "version": "==2.23.0"
         },
+        "rpi-ws281x": {
+            "hashes": [
+                "sha256:185d7ae138a5633cf4cd707c55d7190b34810cc3f5e5682c820ddf1dade20914",
+                "sha256:265a395410cc7199f779c4209ca3970b7211896b86dbaa4731bdc3569d2e595f",
+                "sha256:544f09353ccb578452d0478470460d3425f40e8dd7433131a95239daeae83303",
+                "sha256:bc3a22e55c2a10de5c4dfb23c13dceff66162e77eb7176701f1a0d5ae8b97695",
+                "sha256:de182acceab047030056e2ab0dd2bd2632f2375f60d9a94cf7e3a8a4033834a0"
+            ],
+            "version": "==4.2.3"
+        },
         "rpi.gpio": {
             "hashes": [
                 "sha256:7424bc6c205466764f30f666c18187a0824077daf20b295c42f08aea2cb87d3f"
             ],
-            "index": "pypi",
-            "markers": "sys_platform == 'linux'",
             "version": "==0.7.0"
         },
         "speedtest-cli": {
