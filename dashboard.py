@@ -1,5 +1,6 @@
 import board
 import busio
+
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
 import time
@@ -110,7 +111,7 @@ def draw_network_graph(xy, hw, canvas, measurement_queue):
 
 # Entry point of the program
 if __name__ == '__main__':
-    EXECUTION_PERIOD_S = 60.0 * 10.0
+    EXECUTION_PERIOD_S = 60.0 * 30.0
     # Create the I2C interface.
     i2c = busio.I2C(board.SCL, board.SDA)
     # Create the SSD1306 OLED class.
