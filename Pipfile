@@ -12,7 +12,7 @@ requests = "*"
 pillow = "*"
 speedtest-cli = "*"
 adafruit-circuitpython-ssd1306 = "*"
-"RPi.GPIO" = {version = "*",sys_platform = "== 'linux'"}
+RPi.GPIO = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3"

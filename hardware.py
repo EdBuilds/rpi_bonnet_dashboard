@@ -22,4 +22,4 @@ class buttons:
 
     def register_callback(self, button_name, callback_func):
         GPIO.add_event_detect(self.buttonpins[button_name].id, GPIO.FALLING,
-                              callback=callback_func, bouncetime=300)
+                              callback=callback_func, bouncetime=800)
