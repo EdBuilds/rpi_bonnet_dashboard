@@ -8,10 +8,10 @@ A tutorial for it is available [here](https://learn.adafruit.com/adafruits-raspb
 
 ### Software requirements
 
-First, if you don't have it already, you have to install pip3:
-
+First, if you don't have it already, you have to install pip3 and git:
 ```
-sudo apt-get install python3-pip
+sudo apt-get update
+sudo apt-get install python3-pip git
 ```
 Then install pipenv
 ```
